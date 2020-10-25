@@ -3,6 +3,10 @@
 - 설명: 영화 API를 이용한 영화 사이트
 - [화면이동](https://azurealstn.github.io/minflix/)
 
+## 🎇 기술 스택
+
+- 
+
 ## ✨ 기능
 
 - 네이게이션 만들기
