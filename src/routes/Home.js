@@ -9,7 +9,7 @@ class Home extends React.Component {
 
   //변할 수 있는 값 상태
   state = {
-    isLoading: true,
+    isLoading: true, //true로 초기화
     movies: [], // 무비 리스트 저장(JSON)
   };
 
@@ -22,9 +22,9 @@ class Home extends React.Component {
   getMovies = async () => {
     const {
       data: {
-        data: {movies},
+        data: { movies },
       },
-    } = await axios.get('https://yts-proxy.now.sh/list_movies.json?'); // 노마드코더 프록시를 이용한 yts api
+    } = await axios.get('https://yts-proxy.now.sh/list_movies.json?sort_by=rating'); // 노마드코더 프록시를 이용한 yts api
     this.setState({movies, isLoading: false}); //{movies: movies}
   };
 
@@ -34,7 +34,7 @@ class Home extends React.Component {
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader__text">'Loading...'</span>
+            <span className="loader__text">Loading...</span>
           </div>
         ) : ( 
         <div className="movies">
