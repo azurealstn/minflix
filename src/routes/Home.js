@@ -3,7 +3,7 @@ import axios from 'axios';
 import Movie from '../component/Movie';
 import './Home.css';
 import Header from '../component/Header';
-
+import { Ring } from 'react-awesome-spinners'
 
 class Home extends React.Component {
 
@@ -33,8 +33,8 @@ class Home extends React.Component {
     return (
       <section className="container">
         {isLoading ? (
-          <div className="loader">
-            <span className="loader__text">Loading...</span>
+          <div className="loading">
+            <Ring />
           </div>
         ) : ( 
         <div className="movies">
