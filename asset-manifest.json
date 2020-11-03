@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/minflix/static/css/main.2039edee.chunk.css",
-    "main.js": "/minflix/static/js/main.c07b4099.chunk.js",
-    "main.js.map": "/minflix/static/js/main.c07b4099.chunk.js.map",
+    "main.css": "/minflix/static/css/main.dc9f8425.chunk.css",
+    "main.js": "/minflix/static/js/main.253c4f38.chunk.js",
+    "main.js.map": "/minflix/static/js/main.253c4f38.chunk.js.map",
     "runtime-main.js": "/minflix/static/js/runtime-main.e5c1c110.js",
     "runtime-main.js.map": "/minflix/static/js/runtime-main.e5c1c110.js.map",
-    "static/js/2.ebc93eee.chunk.js": "/minflix/static/js/2.ebc93eee.chunk.js",
-    "static/js/2.ebc93eee.chunk.js.map": "/minflix/static/js/2.ebc93eee.chunk.js.map",
+    "static/js/2.701022d9.chunk.js": "/minflix/static/js/2.701022d9.chunk.js",
+    "static/js/2.701022d9.chunk.js.map": "/minflix/static/js/2.701022d9.chunk.js.map",
     "index.html": "/minflix/index.html",
-    "static/css/main.2039edee.chunk.css.map": "/minflix/static/css/main.2039edee.chunk.css.map",
-    "static/js/2.ebc93eee.chunk.js.LICENSE.txt": "/minflix/static/js/2.ebc93eee.chunk.js.LICENSE.txt",
+    "static/css/main.dc9f8425.chunk.css.map": "/minflix/static/css/main.dc9f8425.chunk.css.map",
+    "static/js/2.701022d9.chunk.js.LICENSE.txt": "/minflix/static/js/2.701022d9.chunk.js.LICENSE.txt",
     "static/media/1.1412b1dd.png": "/minflix/static/media/1.1412b1dd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e5c1c110.js",
-    "static/js/2.ebc93eee.chunk.js",
-    "static/css/main.2039edee.chunk.css",
-    "static/js/main.c07b4099.chunk.js"
+    "static/js/2.701022d9.chunk.js",
+    "static/css/main.dc9f8425.chunk.css",
+    "static/js/main.253c4f38.chunk.js"
   ]
 }
